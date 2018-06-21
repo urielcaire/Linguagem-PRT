@@ -14,7 +14,7 @@ módulo AltaOrdem onde
 fim
 
 # Usando 'Currying' somar(5) retorna uma função `somar(5, y)`
-aplicar_para(10, somar(5)) # 15
+somar(5)(10) # 15
 ```
 ## Recursividade
 Recursividade é uma das características principais da linguagem funcional. Ela define que uma função pode chamar ela mesma quantas vezes forem necessárias, em linguagens funcionais essa estrutura substitui a utilização de laços de repetição, como _for_ (para) e _while_ (enquanto), das linguagens estruturadas.
@@ -58,3 +58,4 @@ fatorial(n) retorna
 fatorial(n) retorna n * fatorial(n-1)
 fatorial(1) retorna 1
 ```
+
